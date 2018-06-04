@@ -144,6 +144,7 @@ class Configuration implements ConfigurationInterface
                         ->arrayNode('output_format')
                             ->defaultValue(['xlf'])
                             ->prototype('scalar')->end()
+                        ->end()
                         ->arrayNode('blacklist_domains')
                             ->prototype('scalar')->end()
                         ->end()
